@@ -126,7 +126,7 @@ text-transform: uppercase;
 }
 
 .about {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     overflow: hidden;
 }
 
@@ -169,7 +169,7 @@ font-weight: 700;
 }
 
 .about__slider {
-    width: 1600px;
+    width: 1800px;
     padding-left: 200px;
     margin-left: -200px;
     padding-bottom: 20px;
@@ -178,4 +178,121 @@ font-weight: 700;
 .about-arrow {
     margin-left: -198px;
     top: -5px;
+}
+
+.accordeon {
+    margin-bottom: 223px;
+}
+
+.accordeon__inner {
+    padding-left: 200px;
+}
+
+.accordeon__item {
+    border-bottom: 1px solid #000;
+    padding: 0 100px 0 0;
+    position: relative;
+}
+
+.accordeon__item::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 51px;
+    background: url(../images/arrow-doun.svg);
+    right: 85px;
+    top: 50px;
+}
+
+.accordeon__item:last-child::after {
+    content: '';
+    position: absolute;
+    background: url(../images/accondeon-picture.jpg);
+    width: 65px;
+    height: 120px;
+    bottom: -73px;
+    left: 268px;
+}
+
+.accordeon__triger {
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+   padding-top: 50px;
+}
+
+.accordeon__triger-title {
+text-transform: uppercase;
+font-size: 24px;
+flex-basis: 300px;
+padding-bottom: 42px;
+}
+
+.accordeon__triger-text {
+flex-basis: 387px;
+margin-right: 104px;
+padding-bottom: 20px;
+}
+
+.accordeon__content {
+    display: none;
+    padding: 20px 0; 
+}
+
+.accordeon__content p{
+    margin-bottom: 18px;
+}
+
+.accordeon__item-active .accordeon__content {
+    display: block;
+}
+
+.products {
+    margin-bottom: 150px;
+}
+
+.products__inner {
+    position: relative;
+    min-height: 647px;
+}
+
+.products__title {
+    font-family: "Playfair Display", serif;
+    line-height: 1.34;
+    font-size: 32px;
+    width: 100px;
+}
+.products__items {
+    display: flex;
+    gap: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.product__item {
+    text-align: center;
+}
+.product__item-caption {
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+.products__item-img {
+    margin-bottom: 20px;
+}
+
+.products__item-name span {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.products__item-price {
+    font-family: "Playfair Display", serif;
+    line-height: 1.34;
+    font-size: 32px;
+    font-style: italic; 
 }
