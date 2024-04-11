@@ -296,3 +296,124 @@ padding-bottom: 20px;
     font-size: 32px;
     font-style: italic; 
 }
+
+.video {
+    margin-bottom: 150px;
+}
+
+.video__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    max-width: 997px;
+    min-height: 600px;
+    background: url(../images/video-background.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.video__btn {
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #C4A9CD;
+    padding: 66px 0 100px;
+}
+.container {
+}
+.footer__top {
+    margin-bottom: 70px;
+    display: flex;
+    gap: 0 70px;
+    justify-content: space-between;
+}
+.logo {
+    margin-right: 10px;
+}
+.footer__items {
+    flex-basis: 387px;
+}
+
+.footer__item + .footer__item {
+    margin-top: 70px;
+}
+.footer__item-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer__item-form {
+    position: relative;
+}
+
+.footer__item-input {
+    width: 100%;
+    display: block;
+    padding: 10px 60px 10px 0;
+    border: none;
+    border-bottom: 1px solid #1B1B1B;
+    background-color: #C4A9CD;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+
+}
+
+.footer__item-input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+    opacity: 0.4;
+}
+
+.footer__item-btn {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.footer__item-list li {
+    padding-top: 10px;
+}
+
+
+.footer__item-link {
+}
+
+
+.footer__sotial-list {
+    margin-left: 10px;
+    align-self: flex-end;
+    margin-right: 105px;
+}
+
+.footer__sotial-item {
+    margin-top: 20px;
+}
+
+.footer__sotial-item svg path {
+    transition: all 0.3s;
+}
+
+.footer__sotial-item svg:hover path {
+    fill: #7449BB;
+}
+.footer__social-link {
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 105px;
+}
+
+.footer__nav-list {
+    display: flex;
+    gap: 0 20px;
+}
+.footer__nav-itev {
+}
+.footer__nav-link {
+}
